@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap");
+
+body {
+	background: url(form.jpg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Raleway, Geneva, Tahoma, sans-serif;
+}
+.loginbox {
+  background-color: white;
+  padding: 20px;
+}
+form {
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+input {
+  margin: 10px;
+  color: black ;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgb(0,153,0);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "Montserrat", sans-serif;
+}
+input:focus {
+  outline: none;
+  border: 2px solid rgb(0,153,0);
+}
+label {
+  margin: 10px;
+}
+input[type="submit"] {
+  cursor: pointer;
+  width: 180px;
+  box-shadow: 0 0 2px 0 gray;
+  color: white;
+  font-size: 15px;
+  border: none;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: rgb(133, 168, 62);
+}
+input[type="button"] {
+  cursor: pointer;
+  width: 180px;
+  color: white;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(133, 168, 62);
+  box-shadow: 0 0 2px 0 gray;
+}
+@media only screen and (min-width: 768px) {
+  /*.group {
+    display: flex;
+  }*/
+  input[type="button"] {
+    margin-left: 60px;
+  }
+  .loginbox {
+    width: 550px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 5px inset rgba(219, 213, 130, 0.719);
+    box-shadow: 0 0 4px 0 rgba(83, 81, 81, 0.884);
+  }
+  .welc{
+    margin-left: 360px;
+  }
+ } 
+.error {
+  font-size: 15px;
+  color: rgb(243, 52, 52);
+  margin: 0;
+  margin-left: 10px;
+}
